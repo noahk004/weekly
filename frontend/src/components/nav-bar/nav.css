@@ -1,9 +1,10 @@
 
 .nav {
-    background-color:rgb(223, 255, 255);
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 1px rgb(209, 209, 209);
 }
 
 .left, .right, .nav-item {
@@ -36,7 +37,7 @@
 }
 
 .user-profile:hover {
-    background-color: rgba(103, 0, 103, 0.717);
+    background-color: rgba(207, 207, 207, 0.717);
 }
 
 .toggle-menu {

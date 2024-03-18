@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Nav from './components/nav-bar/Nav.jsx'
-import Side from './components/body/Side.jsx'
+import Side from './components/side/Side.jsx'
 import Body from './components/body/Body.jsx'
 
 import toggleMenuLogo from './assets/img/toggle-menu.svg'

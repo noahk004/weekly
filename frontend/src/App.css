@@ -33,15 +33,13 @@
     src: url("./assets/fonts/Newsreader_24pt-ExtraBold.ttf");
 }
 
-body {
+* {
     font-family: "Newsreader";
-    margin: 0;
-    padding: 0;
 }
 
-div {
+div, body, ul, li {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 button {
@@ -55,16 +53,17 @@ button {
 .app-container {
     display: grid;
     grid-template-areas:
-        'nav nav nav nav'
-        'side body body body';
-        grid-template-rows: auto 1fr;
+        'nav nav nav nav nav nav'
+        'side body body body body body';
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 280px 1fr 1fr 1fr 1fr 1fr;
     min-height: 100vh;
 }
 
 .app-container.fullwidth {
     grid-template-areas:
-        'nav nav nav nav'
-        'body body body body';
+        'nav nav nav nav nav nav'
+        'body body body body body body';
 }
 
 .side { grid-area: side; }
