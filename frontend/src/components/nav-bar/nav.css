@@ -1,15 +1,46 @@
 div {
     margin: 0;
-    padding: 0;
-    background-color: antiquewhite;
+    padding: 6px;
+    background-color:rgb(223, 255, 255);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+	background: none;
+	border: none;
+    cursor: pointer;
 }
 
 h1 {
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    user-select: none;
+    color: rgb(66, 66, 66);
 }
 
 img {
     width: 50px;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.toggle-menu {
+    border-radius: 50%;
+    transition: background-color 0.25s;
+}
+
+.toggle-menu:hover {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.logo {
+    margin-left: 15px;
+    margin-right: 5px;
 }

@@ -1,11 +1,10 @@
 import React from 'react'
-import './nav.css'
+import './Nav.css'
 
-
-export default function Nav({ toggleMenuLogo, weeklyLogo }) {
+export default function Nav({ toggleMenuLogo, weeklyLogo, value, setter }) {
     return <div>
-        <img src={toggleMenuLogo} alt="" />
-        <img src={weeklyLogo} alt="" />
+        <button onClick={setter}><img className="toggle-menu" src={toggleMenuLogo} alt="" /></button>
+        <img className="logo" src={weeklyLogo} alt="" />
         <h1>Weekly</h1>
     </div>
 }
