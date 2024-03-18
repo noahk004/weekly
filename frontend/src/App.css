@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Newsreader";
+    src: url("./assets/fonts/Newsreader-VariableFont_opsz,wght.woff2");
+}
+
+body {
+    font-family: "Newsreader";
+    margin: 0;
+    padding: 0;
+}
