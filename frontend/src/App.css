@@ -1,6 +1,36 @@
 @font-face {
     font-family: "Newsreader";
-    src: url("./assets/fonts/Newsreader-VariableFont_opsz,wght.woff2");
+    src: url("./assets/fonts/Newsreader_24pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "NewsreaderExtraLight";
+    src: url("./assets/fonts/Newsreader_24pt-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "NewsreaderLight";
+    src: url("./assets/fonts/Newsreader_24pt-Light.ttf");
+}
+
+@font-face {
+    font-family: "NewsreaderMedium";
+    src: url("./assets/fonts/Newsreader_24pt-Medium.ttf");
+}
+
+@font-face {
+    font-family: "NewsreaderSemiBold";
+    src: url("./assets/fonts/Newsreader_24pt-Semi-Bold.ttf");
+}
+
+@font-face {
+    font-family: "NewsreaderBold";
+    src: url("./assets/fonts/Newsreader_24pt-Bold.ttf");
+}
+
+@font-face {
+    font-family: "NewsreaderExtraBold";
+    src: url("./assets/fonts/Newsreader_24pt-ExtraBold.ttf");
 }
 
 body {

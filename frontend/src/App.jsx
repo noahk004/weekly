@@ -3,6 +3,7 @@ import Nav from './components/nav-bar/Nav.jsx'
 import './App.css'
 
 import toggleMenuLogo from './assets/img/toggle-menu.svg'
+import userProfileLogo from './assets/img/user-profile.svg'
 import weeklyLogo from '/weekly-icon.svg'
 
 
@@ -15,8 +16,8 @@ export default function App() {
 
 	const navProps = {
 		toggleMenuLogo: toggleMenuLogo,
+		userProfileLogo: userProfileLogo,
 		weeklyLogo: weeklyLogo,
-		value: sideBarVisible,
 		setter: toggleSideBar,
 	  };
 
