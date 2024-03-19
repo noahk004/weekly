@@ -3,8 +3,10 @@
     background: linear-gradient(57deg,#a632f3,#57edd8,#ffb337,#f5a7ff,#1d4ec4);
     background-size: 300% 300%;
     animation: gradient-animation 30s ease infinite;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -21,15 +23,16 @@
 }
 
 .main-title {
-    width: 23ch;
+    width: 27ch;
     color: white;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    animation: typing 3s steps(27), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 5em;
     user-select: none;
+    margin-bottom: 100px;
   }
   
   @keyframes typing {
@@ -66,4 +69,8 @@
     transform : translateY(-10px);
     box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 13px 0px;
 
+}
+
+u {
+  font-family: monospace;
 }
