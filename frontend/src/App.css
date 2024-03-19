@@ -42,6 +42,7 @@ div, body, ul, li {
     padding: 0
 }
 
+
 button {
     padding: 0;
     margin: 0;
@@ -49,23 +50,3 @@ button {
 	border: none;
     cursor: pointer;
 }
-
-.app-container {
-    display: grid;
-    grid-template-areas:
-        'nav nav nav nav nav nav'
-        'side body body body body body';
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 280px 1fr 1fr 1fr 1fr 1fr;
-    min-height: 100vh;
-}
-
-.app-container.fullwidth {
-    grid-template-areas:
-        'nav nav nav nav nav nav'
-        'body body body body body body';
-}
-
-.side { grid-area: side; }
-.nav { grid-area: nav; }
-.body { grid-area: body; }

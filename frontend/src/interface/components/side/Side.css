@@ -1,0 +1,30 @@
+.side {
+    overflow-x: auto; 
+    flex: 0 0 200px;
+}
+
+.todo-header {
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    font-family: "NewsreaderLight";
+    user-select: none;
+    text-decoration: underline;
+}
+
+.todo-item {
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 8px;
+    margin: 0px 20px;
+    transition: .2s;
+}
+
+.todo-item:hover {
+    background-color: rgba(0, 255, 0, 0.15);
+    border-radius: 0;
+    text-decoration: line-through;
+    transform: translateX(10px);
+    cursor: pointer
+}

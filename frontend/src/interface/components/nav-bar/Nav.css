@@ -26,6 +26,8 @@
 
 .nav-img {
     width: 50px;
+    user-select: none;
+    user-drag: none;
 }
 
 .user-profile {
