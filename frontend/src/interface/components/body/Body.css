@@ -1,2 +1,104 @@
-.body {
+.calendar-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.calendar-table {
+    height: 100%;
+    table-layout: fixed;
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+.calendar-title {
+    background-color: rgb(227, 255, 245);
+    color: rgb(165, 165, 165);
+    height: 60px;
+    font-size: 1.5em;
+    font-family: "";
+}
+
+.calendar-head {
+    height: 40px;
+}
+
+.calendar-title, .calendar-head {
+    text-align: center;
+    user-select: none;
+}
+
+.calendar-head > * {
+    color: rgb(196, 196, 196);
+    letter-spacing: .1ch;
+    font-family: "NewsreaderExtraLight";
+    border-left: solid 1px rgb(198, 198, 198);
+    border-right: solid 1px rgb(198, 198, 198);
+}
+
+.day-of-week:first-child, .day-of-week:last-child {
+    border-left: none;
+    border-right: none;
+}
+
+.calendar-times {
+    vertical-align: top;
+}
+
+.calendar-notes {
+    height: 20%;
+}
+
+.arrow {
+    height: 100px;
+    width: 50px;
+    color:rgb(217, 217, 217);
+    font-family: Arial;
+    font-size: 1.2em;
+    transition: .2s;
+    border-radius: 15px;
+    user-select: none;
+}
+
+.arrow:hover {
+    background-color: rgb(255, 240, 246);
+}
+
+.notes-box {
+    border-left: solid 1px rgb(237, 237, 237);
+    border-right: solid 1px rgb(237, 237, 237);
+    padding: 20px 10px;
+    vertical-align: top;
+    transition: .2s;
+    line-height: 2ch;
+    font-size: 1.1em;
+    color: rgb(166, 166, 166);
+}
+
+.notes-box:first-child, .notes-box:last-child {
+    border-left: none;
+    border-right: none;
+}
+
+.notes-head {
+    height: 40px;
+    font-size: 1.3em;
+    color: rgb(186, 186, 186);
+    text-align: center;
+    background-color: rgb(254, 243, 255);
+    user-select: none;
+}
+
+.calendar-event {
+    font-size: 1.1em;
+    color: rgb(168, 168, 168);
+    padding: 10px;
+}
+
+.calendar-times > * {
+    padding: 20px;
+    color: rgb(156, 156, 156);
+    font-size: 1.3em;
+    line-height: 2.2ch;
 }

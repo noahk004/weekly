@@ -21,10 +21,15 @@
     transition: .2s;
 }
 
+.item-complete {
+    background-color: rgba(0, 255, 0, 0.15);
+    text-decoration: line-through;
+}
+
 .todo-item:hover {
     background-color: rgba(0, 255, 0, 0.15);
     border-radius: 0;
     text-decoration: line-through;
     transform: translateX(10px);
-    cursor: pointer
+    cursor: pointer;
 }

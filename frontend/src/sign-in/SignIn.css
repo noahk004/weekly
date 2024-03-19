@@ -49,6 +49,7 @@
     transition: .5s;
     margin-top: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .submit-btn:hover {

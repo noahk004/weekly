@@ -18,6 +18,7 @@
     transition: background-color .2s;
     border: solid 1px lightgray;
     text-decoration: none;
+    user-select: none;
 }
 
 .dropdown-item:hover {

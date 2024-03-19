@@ -25,14 +25,13 @@
 .main-title {
     width: 27ch;
     color: white;
-    animation: typing 3s steps(27), blink .5s step-end infinite alternate;
+    animation: typing 2s steps(27), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 5em;
     user-select: none;
-    margin-bottom: 100px;
   }
   
   @keyframes typing {
@@ -48,6 +47,7 @@
   }
 
 .get-started{
+    margin-top: 40px;
     font-size: 2em;
     color: #ffffff;
     background: transparent;
@@ -71,6 +71,26 @@
 
 }
 
-u {
+.caption {
+  color: transparent;
+  font-size: 1.8em;
+  margin: 40px;
+  animation: fadeIn .5s forwards;
+  animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: rgb(245, 245, 245);
+    text-shadow: 3px 3px rgba(80, 80, 80, 0.453);
+
+  }
+}
+
+.emphasize {
   font-family: monospace;
 }
